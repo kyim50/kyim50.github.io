@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimani's Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="Assets/Kimani.jpg">
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: 'Euclid', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: transparent;
+            padding: 20px 0;
+            text-align: center;
+            transition: background-color 0.5s ease;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        a.button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007AFF;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a.button-link:hover {
+            background-color: #0055A4;
+        }
+
+        a.skip-link {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a.skip-link:hover {
+            text-decoration: underline;
+        }
+
+        
+        .profile-image {
+            max-width: 150px; 
+            height: auto;
+            border-radius: 50%;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="mailto:kimanimac2005@gmail.com">
+            <img src="Assets/Kimani.jpg" alt="Kimani's Image" class="profile-image">
+        </a>
+        <h1>Kimani's Personal Website</h1>
+    </header>
+    <section>
+        <a href="ProfessionalPage.html" class="button-link">Professional Page</a>
+    </section>
+    <section>
+        <a href="PersonalPage.html" class="button-link">Personal Page</a>
+    </section>
+    <section>
+        <a href="PersonalDevelopmentPage.html" class="button-link">Personal Development</a>
+    </section>
+    <section>
+        <a href="StoryboardPage.html" class="button-link">Story Board</a>
+    </section>
+    <section>
+        <a href="ReferencePage.html" class="button-link">References</a>
+    </section>
+    <a class="skip-link" href="#SPAGE">Skip to the End of the Page</a>
+</body>
+</html>
